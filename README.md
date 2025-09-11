@@ -174,16 +174,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Supervisor**: Prof. Ergin Atalar
 - **Course**: EEE474 Foundations of Magnetic Resonance Imaging
-- **Institution**: [Your University Name]
+- **Institution**: Bilkent University
 - **Imaging Facility**: 3T Siemens Magnetom Scanner
 - **Special Thanks**: Robinson et al. for the array coil signal combination methodology
 
 ## Contact
 
-Mohammed Abed - [your.email@domain.com]
+Mohammed Abed - [moisf56@gmail.com]
 
-Project Link: [https://github.com/yourusername/mri-b0-field-mapping](https://github.com/yourusername/mri-b0-field-mapping)
+Project Link: [https://github.com/moisf56/mri-b0-field-mapping](https://github.com/yourusername/MRI-3T-B-Field-Inhomogeneity-Measurement)
 
 ---
 
-**Video Demonstration**: [YouTube Link](https://youtu.be/CkeuGSBnlC0)
+**Video Demonstration**: [YouTube Link](https://youtu.be/CkeuGSBnlC0?si=W8CP3wGIygRvaOU7)
