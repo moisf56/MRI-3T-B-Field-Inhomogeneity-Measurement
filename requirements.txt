@@ -1,0 +1,51 @@
+# MATLAB Requirements for MRI B₀ Field Mapping Project
+
+## MATLAB Version
+MATLAB R2020a or later (recommended: R2023a+)
+
+## Required MATLAB Toolboxes
+- Image Processing Toolbox
+- Signal Processing Toolbox  
+- Statistics and Machine Learning Toolbox
+
+## External MATLAB Libraries
+pulseq-master/
+├── matlab/
+│   ├── +mr/
+│   ├── Examples/
+│   └── README.md
+└── Download from: https://github.com/pulseq/pulseq
+
+mapVBVD/
+├── mapVBVD.m
+├── twix_map_obj.m
+└── Download from: https://github.com/CIC-methods/FID-A
+
+## Third-party Phase Unwrapping Algorithms
+phase_unwrapping/
+├── PUROR2D.m
+├── mask_generation.m
+├── NoiseEstimation.m
+└── Download from: MATLAB File Exchange ID 45393
+
+## Hardware Requirements
+- RAM: Minimum 8GB (16GB recommended for large datasets)
+- Storage: 10GB free space for data and results
+- CPU: Multi-core processor recommended for parallel processing
+
+## MRI Scanner Data Format
+- Siemens TWIX format (.dat files)
+- Support for multi-channel coil data
+- Compatible with Siemens VB/VD/VE software versions
+
+## Optional Enhancements
+- Parallel Computing Toolbox (for faster processing)
+- Computer Vision Toolbox (for advanced image processing)
+- Deep Learning Toolbox (for future ML-based improvements)
+
+## Installation Notes
+1. Install MATLAB with required toolboxes
+2. Add pulseq library to MATLAB path
+3. Install mapVBVD for Siemens data reading
+4. Add phase unwrapping functions to path
+5. Verify installation by running test scripts
