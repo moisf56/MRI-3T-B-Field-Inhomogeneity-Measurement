@@ -8,11 +8,11 @@
 
 ## Overview
 
-This project implements a comprehensive method for measuring and mapping the main magnetic field (B₀) inhomogeneity in a 3T Siemens Magnetom MRI scanner. The work was conducted as part of the EEE474 Foundations of Magnetic Resonance Imaging course under the supervision of Prof. Ergin Atalar.
+This project implements a comprehensive method for measuring and mapping the main magnetic field (B₀) inhomogeneity in a 3T Siemens Magnetom MRI scanner. The work was conducted as part the term project of the EEE474 Foundations of Magnetic Resonance Imaging course under the supervision of Prof. Ergin Atalar.
 
 ### Key Achievements
 - **Field Homogeneity**: Measured field inhomogeneity of [-1.5, 0.5] ppm over 40cm diameter spherical volume
-- **Advanced Phase Processing**: Implemented robust 2D phase unwrapping algorithms for accurate field mapping
+- **Advanced Phase Processing**: Implemented robust 2D phase unwrapping algorithms for accurate field mapping (The paper that introduced the method: https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.3601)
 - **Multi-Echo Acquisition**: Utilized gradient echo sequences with optimized echo times (5ms, 12ms, 20ms)
 - **Multi-Channel Processing**: Leveraged 32-channel Siemens head coil for enhanced SNR
 
